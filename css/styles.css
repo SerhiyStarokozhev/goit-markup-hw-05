@@ -504,11 +504,6 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-thumb {
-  position: relative;
-  overflow: hidden;
-}
-
 .portfolio-thumb-text {
   position: absolute;
   top: 0;
@@ -535,11 +530,6 @@ img {
 .portfolio-link:focus .portfolio-thumb-text {
   opacity: 1;
   transform: translateY(0);
-}
-
-.portfolio-link:hover .portfolio-overlay,
-.portfolio-link:focus .portfolio-overlay {
-  transform: translateY(0%);
 }
 
 /* ------------------------------CLIENTS--------------------------------- */
